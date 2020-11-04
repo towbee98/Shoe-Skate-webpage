@@ -84,8 +84,10 @@ document.addEventListener("click", closeAllSelect);
 
 //
 const colors = document.querySelector(".colors");
+const body = document.querySelector("body");
 //if the user clicks any of the colors ,it gets highlighted with focus on the
 // clicked colors
+const colorNames = ["#0392BF", "#ED48BA", "#FBEC06", "#B3D4E0"];
 colors.addEventListener("click", (event) => {
   for (let i = 0; i < colors.children.length; i++) {
     if (event.target.className === colors.children[i].className) {
@@ -93,6 +95,8 @@ colors.addEventListener("click", (event) => {
         colors.children[j].style.border = "1px solid";
       }
       event.target.style.border = "3px solid";
+      body.style.backgroundColor = colorNames[i];
+      // body.style.backgroundColor=
     }
   }
 });
