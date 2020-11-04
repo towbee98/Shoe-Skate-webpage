@@ -8,10 +8,9 @@ body {
   display: grid;
   grid-template-columns: 5% 90%;
   margin: 0;
-
   position: absolute;
   bottom: 0;
-  top: 3px;
+  top: 10px;
   overflow: hidden;
 }
 
