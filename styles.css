@@ -10,7 +10,7 @@ body {
   margin: 0;
   position: absolute;
   bottom: 0;
-  top: 10px;
+  top: 40px;
   overflow: hidden;
 }
 
@@ -24,7 +24,8 @@ a {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(144, 195, 199);
-  padding: 20px;
+  padding: 40px;
+  margin: -30px;
 }
 .logo {
   width: 50px;
