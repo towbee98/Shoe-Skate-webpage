@@ -6,7 +6,7 @@ body {
   grid-template-columns: 7% 90%;
   height: 100%;
   position: absolute;
-  margin: 0;
+  margin-top: 10px;
   overflow: hidden;
 }
 
